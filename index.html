@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingens Logistics || Logistik für Klein- und Großwaren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="hero-logo">
+            <h1>INGENS</h1>
+            <p class="hero-subtitle">LOGISTICS</p>
+        </div>
+        <p class="hero-tagline">Effiziente Logistiklösungen für Unternehmen jeder Größe</p>
+    </header>    <nav>
+        <ul class="nav-tabs">
+            <li><a href="#home">Startseite</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="services.html">Leistungen</a></li>
+            <li><a href="#tracking">Sendungsverfolgung</a></li>
+            <li><a href="#sustainability">Nachhaltigkeit / Effizienz</a></li>
+            <li><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Willkommen bei Ingens Logistics</h2>
+        <div class="leitbild">
+            <h3>Unser Leitbild</h3>
+            <p>Bei Ingens Logistics steht der Kunde im Mittelpunkt unserer Logistikwelt. Wir verbinden Märkte und Menschen weltweit mit effizienten, nachhaltigen und innovativen Lösungen. Unser Leitbild basiert auf drei Säulen: <strong>Effizienz</strong>, <strong>Innovation</strong> und <strong>Nachhaltigkeit</strong>.</p>
+            <p><strong>Effizienz:</strong> Wir optimieren Lieferketten, um Zeit und Kosten zu sparen. Mit modernster Technologie wie RFID und Echtzeit-Tracking sorgen wir für präzise und schnelle Abläufe.</p>
+            <p><strong>Innovation:</strong> Wir setzen auf zukunftsweisende Technologien, um die Logistikbranche voranzutreiben. Von Cross-Docking bis hin zu datenbasierten Marktanalysen – wir bleiben immer einen Schritt voraus.</p>
+            <p><strong>Nachhaltigkeit:</strong> Umweltbewusstsein ist uns wichtig. Wir minimieren CO2-Emissionen durch optimierte Routen und den Einsatz grüner Fahrzeuge, ohne die Effizienz zu beeinträchtigen.</p>
+            <p>Entdecken Sie, wie wir Ihr Unternehmen unterstützen können. Von kleinen Paketen bis zu Großfrachten – Ingens Logistics ist Ihr zuverlässiger Partner für eine bessere Logistik.</p>
+        </div>
+        <div class="leitsaetze">
+            <div class="leitsatz">Behalten Sie Ihre Lieferungen jederzeit im Blick</div>
+            <div class="leitsatz">Optimieren Sie Ihre Logistikprozesse</div>
+            <div class="leitsatz">Vertrauen Sie auf moderne Technologie</div>
+        </div>
+        <a href="#contact" class="cta-button">Jetzt kontaktieren</a>
+    </section>
+
+    <section id="testimonials">
+        <h2>Was unsere Kunden sagen</h2>
+        <div class="testimonial">
+            <p>"Ingens Logistics hat unsere Lieferzeiten um 30% verkürzt. Hervorragender Service!"</p>
+            <cite>- Max Mustermann, CEO von Beispiel GmbH</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Die Tracking-Plattform gibt uns volle Transparenz. Wir sind sehr zufrieden."</p>
+            <cite>- Anna Schmidt, Logistikleiterin bei Test AG</cite>
+        </div>
+        <div class="testimonial">
+            <p>"Professionell, zuverlässig und innovativ. Eine echte Partnerschaft."</p>
+            <cite>- Peter Müller, Geschäftsführer von Muster KG</cite>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Über uns</h2>
+        <p>Erfahren Sie mehr über unser Unternehmen und unser erfahrenes Team.</p>
+        <a href="about.html" class="cta-button">Zur Über-uns-Seite</a>
+    </section>
+    <section id="services">
+        <h2>Unsere Leistungen</h2>
+        <p>Entdecken Sie unsere spezialisierten Logistiklösungen.</p>
+        <a href="services.html" class="cta-button">Zur Leistungsseite</a>
+    </section>
+
+    <section id="tracking">
+        <h2>Sendungsverfolgung</h2>
+        <p>Verfolgen Sie den Status Ihrer Sendung in Echtzeit.</p>
+        <form id="tracking-form">
+            <label for="tracking-number">Sendungsnummer eingeben:</label>
+            <input type="text" id="tracking-number" name="tracking-number" required>
+            <button type="submit">Verfolgen</button>
+        </form>
+        <div id="tracking-result" style="display: none;">
+            <h3>Lieferstatus</h3>
+            <p>Status: <span id="status">In Bearbeitung</span></p>
+            <p>Voraussichtliche Lieferzeit: <span id="delivery-time">2-3 Tage</span></p>
+        </div>
+    </section>
+
+    <section id="sustainability">
+        <h2>Nachhaltigkeit / Effizienz</h2>
+        <p>Bei Ingens Logistics legen wir großen Wert auf nachhaltige und effiziente Logistikprozesse. Wir minimieren unseren CO2-Fußabdruck durch optimierte Routenplanung und den Einsatz umweltfreundlicher Fahrzeuge. Unsere Effizienzstrategien umfassen RFID-Technologie für präzise Lagerhaltung und datenbasierte Entscheidungen zur Reduzierung von Verschwendung.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Kontaktieren Sie uns für individuelle Logistiklösungen.</p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Senden</button>
+        </form>
+        <p>Alternativ: Email: info@ingenslogistics.de</p>
+    </section>
+    <main>
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ingens Logistics - Die Best Website GmbH</p>
+        <nav class="footer-nav">
+            <a href="impressum.html">Impressum</a> |
+            <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+    </footer>
+
+    <script>
+        document.getElementById('tracking-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const trackingNumber = document.getElementById('tracking-number').value;
+            if (trackingNumber) {
+                document.getElementById('tracking-result').style.display = 'block';
+                // Simulierter Status basierend auf Nummer
+                if (trackingNumber === '12345') {
+                    document.getElementById('status').textContent = 'Geliefert';
+                    document.getElementById('delivery-time').textContent = 'Bereits zugestellt';
+                } else {
+                    document.getElementById('status').textContent = 'In Bearbeitung';
+                    document.getElementById('delivery-time').textContent = '2-3 Tage';
+                }
+            }
+        });
+        
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
